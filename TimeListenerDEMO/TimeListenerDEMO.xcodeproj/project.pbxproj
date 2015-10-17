@@ -15,6 +15,15 @@
 		55AAF3CE1BD1FCF400DE5E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55AAF3CC1BD1FCF400DE5E32 /* LaunchScreen.storyboard */; };
 		55AAF3D91BD1FCF400DE5E32 /* TimeListenerDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF3D81BD1FCF400DE5E32 /* TimeListenerDEMOTests.m */; };
 		55AAF3E41BD1FCF400DE5E32 /* TimeListenerDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF3E31BD1FCF400DE5E32 /* TimeListenerDEMOUITests.m */; };
+		55AAF4061BD1FD4900DE5E32 /* NSDate+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF3F51BD1FD4900DE5E32 /* NSDate+Compare.m */; settings = {ASSET_TAGS = (); }; };
+		55AAF4071BD1FD4900DE5E32 /* NSDate+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF3F71BD1FD4900DE5E32 /* NSDate+Components.m */; settings = {ASSET_TAGS = (); }; };
+		55AAF4081BD1FD4900DE5E32 /* NSDate+DateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF3F91BD1FD4900DE5E32 /* NSDate+DateTime.m */; settings = {ASSET_TAGS = (); }; };
+		55AAF4091BD1FD4900DE5E32 /* NSDate+Day.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF3FB1BD1FD4900DE5E32 /* NSDate+Day.m */; settings = {ASSET_TAGS = (); }; };
+		55AAF40A1BD1FD4900DE5E32 /* NSDate+Month.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF3FD1BD1FD4900DE5E32 /* NSDate+Month.m */; settings = {ASSET_TAGS = (); }; };
+		55AAF40B1BD1FD4900DE5E32 /* NSDate+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF3FF1BD1FD4900DE5E32 /* NSDate+Time.m */; settings = {ASSET_TAGS = (); }; };
+		55AAF40C1BD1FD4900DE5E32 /* NSDate+Week.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF4011BD1FD4900DE5E32 /* NSDate+Week.m */; settings = {ASSET_TAGS = (); }; };
+		55AAF40D1BD1FD4900DE5E32 /* NSDate+Year.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF4031BD1FD4900DE5E32 /* NSDate+Year.m */; settings = {ASSET_TAGS = (); }; };
+		55AAF40E1BD1FD4900DE5E32 /* TimeEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 55AAF4051BD1FD4900DE5E32 /* TimeEngine.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,25 @@
 		55AAF3DF1BD1FCF400DE5E32 /* TimeListenerDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeListenerDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AAF3E31BD1FCF400DE5E32 /* TimeListenerDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeListenerDEMOUITests.m; sourceTree = "<group>"; };
 		55AAF3E51BD1FCF400DE5E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AAF3F31BD1FD4900DE5E32 /* NSDate+Calendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Calendar.h"; sourceTree = "<group>"; };
+		55AAF3F41BD1FD4900DE5E32 /* NSDate+Compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Compare.h"; sourceTree = "<group>"; };
+		55AAF3F51BD1FD4900DE5E32 /* NSDate+Compare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Compare.m"; sourceTree = "<group>"; };
+		55AAF3F61BD1FD4900DE5E32 /* NSDate+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Components.h"; sourceTree = "<group>"; };
+		55AAF3F71BD1FD4900DE5E32 /* NSDate+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Components.m"; sourceTree = "<group>"; };
+		55AAF3F81BD1FD4900DE5E32 /* NSDate+DateTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateTime.h"; sourceTree = "<group>"; };
+		55AAF3F91BD1FD4900DE5E32 /* NSDate+DateTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateTime.m"; sourceTree = "<group>"; };
+		55AAF3FA1BD1FD4900DE5E32 /* NSDate+Day.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Day.h"; sourceTree = "<group>"; };
+		55AAF3FB1BD1FD4900DE5E32 /* NSDate+Day.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Day.m"; sourceTree = "<group>"; };
+		55AAF3FC1BD1FD4900DE5E32 /* NSDate+Month.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Month.h"; sourceTree = "<group>"; };
+		55AAF3FD1BD1FD4900DE5E32 /* NSDate+Month.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Month.m"; sourceTree = "<group>"; };
+		55AAF3FE1BD1FD4900DE5E32 /* NSDate+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Time.h"; sourceTree = "<group>"; };
+		55AAF3FF1BD1FD4900DE5E32 /* NSDate+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Time.m"; sourceTree = "<group>"; };
+		55AAF4001BD1FD4900DE5E32 /* NSDate+Week.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Week.h"; sourceTree = "<group>"; };
+		55AAF4011BD1FD4900DE5E32 /* NSDate+Week.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Week.m"; sourceTree = "<group>"; };
+		55AAF4021BD1FD4900DE5E32 /* NSDate+Year.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Year.h"; sourceTree = "<group>"; };
+		55AAF4031BD1FD4900DE5E32 /* NSDate+Year.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Year.m"; sourceTree = "<group>"; };
+		55AAF4041BD1FD4900DE5E32 /* TimeEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeEngine.h; sourceTree = "<group>"; };
+		55AAF4051BD1FD4900DE5E32 /* TimeEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +137,7 @@
 				55AAF3CA1BD1FCF400DE5E32 /* Assets.xcassets */,
 				55AAF3CC1BD1FCF400DE5E32 /* LaunchScreen.storyboard */,
 				55AAF3CF1BD1FCF400DE5E32 /* Info.plist */,
+				55AAF3F11BD1FD4900DE5E32 /* TimeEngine */,
 				55AAF3BE1BD1FCF400DE5E32 /* Supporting Files */,
 			);
 			path = TimeListenerDEMO;
@@ -138,6 +167,40 @@
 				55AAF3E51BD1FCF400DE5E32 /* Info.plist */,
 			);
 			path = TimeListenerDEMOUITests;
+			sourceTree = "<group>";
+		};
+		55AAF3F11BD1FD4900DE5E32 /* TimeEngine */ = {
+			isa = PBXGroup;
+			children = (
+				55AAF3F21BD1FD4900DE5E32 /* NSDate(Categories) */,
+				55AAF4041BD1FD4900DE5E32 /* TimeEngine.h */,
+				55AAF4051BD1FD4900DE5E32 /* TimeEngine.m */,
+			);
+			path = TimeEngine;
+			sourceTree = "<group>";
+		};
+		55AAF3F21BD1FD4900DE5E32 /* NSDate(Categories) */ = {
+			isa = PBXGroup;
+			children = (
+				55AAF3F31BD1FD4900DE5E32 /* NSDate+Calendar.h */,
+				55AAF3F41BD1FD4900DE5E32 /* NSDate+Compare.h */,
+				55AAF3F51BD1FD4900DE5E32 /* NSDate+Compare.m */,
+				55AAF3F61BD1FD4900DE5E32 /* NSDate+Components.h */,
+				55AAF3F71BD1FD4900DE5E32 /* NSDate+Components.m */,
+				55AAF3F81BD1FD4900DE5E32 /* NSDate+DateTime.h */,
+				55AAF3F91BD1FD4900DE5E32 /* NSDate+DateTime.m */,
+				55AAF3FA1BD1FD4900DE5E32 /* NSDate+Day.h */,
+				55AAF3FB1BD1FD4900DE5E32 /* NSDate+Day.m */,
+				55AAF3FC1BD1FD4900DE5E32 /* NSDate+Month.h */,
+				55AAF3FD1BD1FD4900DE5E32 /* NSDate+Month.m */,
+				55AAF3FE1BD1FD4900DE5E32 /* NSDate+Time.h */,
+				55AAF3FF1BD1FD4900DE5E32 /* NSDate+Time.m */,
+				55AAF4001BD1FD4900DE5E32 /* NSDate+Week.h */,
+				55AAF4011BD1FD4900DE5E32 /* NSDate+Week.m */,
+				55AAF4021BD1FD4900DE5E32 /* NSDate+Year.h */,
+				55AAF4031BD1FD4900DE5E32 /* NSDate+Year.m */,
+			);
+			path = "NSDate(Categories)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +333,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55AAF40E1BD1FD4900DE5E32 /* TimeEngine.m in Sources */,
+				55AAF4061BD1FD4900DE5E32 /* NSDate+Compare.m in Sources */,
+				55AAF40A1BD1FD4900DE5E32 /* NSDate+Month.m in Sources */,
+				55AAF40B1BD1FD4900DE5E32 /* NSDate+Time.m in Sources */,
 				55AAF3C61BD1FCF400DE5E32 /* ViewController.m in Sources */,
+				55AAF40C1BD1FD4900DE5E32 /* NSDate+Week.m in Sources */,
 				55AAF3C31BD1FCF400DE5E32 /* AppDelegate.m in Sources */,
+				55AAF40D1BD1FD4900DE5E32 /* NSDate+Year.m in Sources */,
+				55AAF4081BD1FD4900DE5E32 /* NSDate+DateTime.m in Sources */,
+				55AAF4091BD1FD4900DE5E32 /* NSDate+Day.m in Sources */,
 				55AAF3C01BD1FCF400DE5E32 /* main.m in Sources */,
+				55AAF4071BD1FD4900DE5E32 /* NSDate+Components.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
